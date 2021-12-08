@@ -93,6 +93,7 @@ const breakpoints = [
             // {name: 'timeline'}, - not in Chromium
         ],
         methods: [
+            {name: 'interestCohort'} // FLoC
         ]
     },
     {
@@ -127,6 +128,7 @@ const breakpoints = [
             {name: 'storage'},
             {name: 'vendor'},
             {name: 'vendorSub'},
+            {name: 'webdriver'},
             {name: 'webkitPersistentStorage'},
             {name: 'webkitTemporaryStorage'},
             // {name: 'xr'},   //VR access - not in Chromium
